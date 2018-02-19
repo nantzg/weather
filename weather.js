@@ -43,7 +43,7 @@ let handleWeatherResponse = function(response) {
   console.log(response)
   window.response = response
 
-  // **** your code starts here - don't modify anything else. you will be sad.
+// **** your code starts here - don't modify anything else. you will be sad.
 $("#current-conditions-icon").empty();
 let weathernow=response.currently;
 $("#current-conditions-icon").append(icon(weathernow.icon));
